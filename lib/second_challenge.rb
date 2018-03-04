@@ -21,7 +21,3 @@ def second_challenge
   final_values.flatten
 
   end
-
-
-
-end
