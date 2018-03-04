@@ -7,11 +7,19 @@ def second_challenge
   }
 
   #code your solution here!
-  grocery_key = groceries.keys
-  grocery_value = []
-  grocery_key.each do |value|
-      grocery_value << value
-      grocery_value
+  grocery_values = groceries.values
+  final_values = []
+
+  grocery_values.each do |value|
+       final_values<< value
+
+
+
+
+
+  end
+  final_values.flatten
+
   end
 
 
