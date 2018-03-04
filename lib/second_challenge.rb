@@ -8,7 +8,11 @@ def second_challenge
 
   #code your solution here!
   grocery_key = groceries.keys
-   grocery_key
+
+  grocery_key.each do |value|
+      grocery_value = value
+      grocery_value
+  end
 
 
 
